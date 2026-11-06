@@ -33,7 +33,7 @@ keywords:
   - business education
 references:
   - type: data
-    title: "Business Education Essay Grading Dataset"
+    title: "Automated Short-Answer Grading Dataset: 2,550 Answers to Auditing Questions from Undergraduate Accounting Courses, with Rubric Scores"
     authors:
       - given-names: "Kamal Muhammad Kamal"
         family-names: "Abdul-Fattah"
