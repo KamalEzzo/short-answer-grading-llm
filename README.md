@@ -6,7 +6,7 @@ to classify each answer (On-Topic / Off-Topic / No Answer), select a reason, and
 criteria: Clarity (0-2), Terminology (0-2), Coverage (0-2) and Accuracy (0-4). The final grade is
 the rubric total divided by two (0-5 scale).
 
-- **Fine-tuned LoRA adapter:** [Hugging Face](https://huggingface.co/KamalEzzo/gemma2-9b-it-essay-grading-lora)
+- **Fine-tuned LoRA adapter:** [Hugging Face](https://huggingface.co/KamalEzzo/gemma2-9b-it-short-answer-grading-lora)
 - **Dataset:** restricted access on [Zenodo (10.5281/zenodo.18856922)](https://doi.org/10.5281/zenodo.18856922); see [`data/README.md`](data/README.md)
 - **No student answer text is stored in this repository.**
 
