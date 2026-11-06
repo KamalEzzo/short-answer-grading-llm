@@ -22,7 +22,7 @@ authors:
   - given-names: "Walid"
     family-names: "Al-Atabany"
     affiliation: "Nile University, School of Information Technology and Computer Science"
-repository-code: "https://github.com/KamalEzzo/automated-essay-grading-system"
+repository-code: "https://github.com/KamalEzzo/short-answer-grading-llm"
 license: MIT
 keywords:
   - automated short-answer grading
