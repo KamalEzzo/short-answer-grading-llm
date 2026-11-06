@@ -1,0 +1,5 @@
+non-test answers per model: {'DeepSeek-7B': 2040, 'LLaMA 3-8B': 2040, 'Gemma 2-9B': 2040}
+DeepSeek-7B  per-criterion QWK: Clarity 0.381, Terminology 0.450, Coverage 0.465, Accuracy 0.243
+LLaMA 3-8B   per-criterion QWK: Clarity 0.655, Terminology 0.639, Coverage 0.682, Accuracy 0.719
+Gemma 2-9B   per-criterion QWK: Clarity 0.632, Terminology 0.586, Coverage 0.748, Accuracy 0.772
+written: figures/fig_zeroshot_grade_distributions.pdf, figures/fig_zeroshot_rubric_radar.pdf

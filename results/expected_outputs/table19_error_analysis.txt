@@ -1,0 +1,23 @@
+FP (on-topic flagged)          12  2.4%
+FN (off-topic missed)          23  4.5%
+Over (d >= +2)                 33  6.5%
+Under (d <= -2)                24  4.7%
+Partial (0.5 < |d| <= 1)       86  16.9%
+AccConf (|gapAcc| >= 2)        45  8.8%
+CovOver (gapCov >= 2)           2  0.4%
+
+any disagreement |d|>0: 329 | exact 181 | |d|=0.5: 133 | |d|>1: 110
+Over (d >= +2) both on-topic n=22 (all 33): {'Clarity': np.float64(1.0), 'Terminology': np.float64(0.86), 'Coverage': np.float64(1.09), 'Accuracy': np.float64(1.77)} | all cases: {'Clarity': np.float64(1.0), 'Terminology': np.float64(0.91), 'Coverage': np.float64(1.06), 'Accuracy': np.float64(1.67)}
+Under (d <= -2) both on-topic n=22 (all 24): {'Clarity': np.float64(-0.91), 'Terminology': np.float64(-0.95), 'Coverage': np.float64(-0.86), 'Accuracy': np.float64(-1.86)} | all cases: {'Clarity': np.float64(-0.92), 'Terminology': np.float64(-0.96), 'Coverage': np.float64(-0.88), 'Accuracy': np.float64(-1.83)}
+
+Partial-credit: |d| values {1.0: 86} | rubric dims differing: {1: 3, 2: 83}
+AccConf: Accuracy largest gap in 44 of 45 | other rubric |gap|>=2 anywhere: {'Clarity': 2, 'Terminology': 1, 'Coverage': 2}
+FN also Over: 11 | FN model grades 0.5 - 2.5
+FP human grades: {'min': 0.5, '50%': 1.0, 'max': 2.5} | FP model grades [0.]
+FP also Under: 2
+CovOver rows:         student_id  Human_Coverage  LLM_Coverage  Human_Final  LLM_Final
+68   Q21 Student17               0             2          1.0        5.0
+194   Q4 Student22               0             2          2.5        4.5
+
+Human flag labels: {'On-Topic': 420, 'Off-Topic': 55, 'No Answer': 35} | model: {'On-Topic': 431, 'Off-Topic': 44, 'No Answer': 35}
+Off-topic-only FN: 23 | No Answer missed: 0

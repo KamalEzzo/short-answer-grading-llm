@@ -1,0 +1,9 @@
+model          TP   FP   FN precision  recall
+FT Gemma       67   12   23     0.848   0.744
+ZS Gemma       89  112    1     0.443   0.989
+GPT-4o ZS      80   49   10     0.620   0.889
+GPT-4o FS      79   40   11     0.664   0.878
+GPT-5.2 ZS     76   28   14     0.731   0.844
+GPT-5.2 FS     72   23   18     0.758   0.800
+Opus 4.6 ZS    71   23   19     0.755   0.789
+Opus 4.6 FS    69   24   21     0.742   0.767

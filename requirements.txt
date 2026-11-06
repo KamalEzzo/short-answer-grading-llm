@@ -1,0 +1,14 @@
+# Analysis (tests, scripts, notebooks 01, 03-05, 07, 09-11); versions used for the v2.0 release run, Python 3.13
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.17.0
+scikit-learn==1.8.0
+matplotlib==3.10.8
+seaborn==0.13.2
+statsmodels==0.14.6
+openpyxl==3.1.5
+krippendorff==0.8.1
+
+# Only for generating model outputs (not needed to reproduce the tables):
+#   notebooks 02, 06, 12 (Google Colab GPU): torch, transformers, unsloth, trl, datasets, huggingface_hub, tqdm, sentencepiece
+#   notebook 08 and scripts/inference/ (APIs): openai, anthropic

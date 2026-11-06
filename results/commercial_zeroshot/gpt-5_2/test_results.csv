@@ -1,0 +1,4081 @@
+student_id,Human_OffTopic,LLM_OffTopic,OffTopic_Match,Human_Clarity,LLM_Clarity,Human_Terminology,LLM_Terminology,Human_Coverage,LLM_Coverage,Human_Accuracy,LLM_Accuracy,Human_Final,LLM_Final,Diff,Within_1.0,Within_0.5,raw_response
+Q4 Student1,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student2,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student3,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student4,On-Topic,On-Topic,True,1,2,0,2,1,2,3,3,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q4 Student5,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student6,On-Topic,On-Topic,True,1,2,1,1,1,1,3,2,3.0,3.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q4 Student7,On-Topic,On-Topic,True,1,2,1,2,2,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student8,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student9,On-Topic,On-Topic,True,1,2,1,2,2,1,1,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student10,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student11,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student12,On-Topic,On-Topic,True,1,2,1,1,0,1,2,3,2.0,3.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q4 Student13,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student14,On-Topic,On-Topic,True,1,1,1,1,1,1,2,3,2.5,3.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q4 Student15,On-Topic,Off-Topic,False,1,0,1,0,0,0,2,0,2.0,0.0,2.0,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q4 Student16,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q4 Student17,On-Topic,On-Topic,True,1,2,1,2,2,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student18,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student19,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student20,On-Topic,On-Topic,True,1,1,1,1,1,1,2,2,2.5,2.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q4 Student21,On-Topic,On-Topic,True,1,2,2,2,1,2,3,3,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q4 Student22,On-Topic,On-Topic,True,1,2,1,2,0,2,3,4,2.5,5.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student23,On-Topic,On-Topic,True,2,2,1,1,1,1,3,3,3.5,3.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q4 Student24,On-Topic,On-Topic,True,2,2,1,2,1,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student25,On-Topic,On-Topic,True,1,1,1,1,2,1,2,2,3.0,2.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q4 Student26,On-Topic,On-Topic,True,1,2,2,2,0,1,2,2,2.5,3.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q4 Student27,On-Topic,Off-Topic,False,1,0,0,0,1,0,2,0,2.0,0.0,2.0,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q4 Student28,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q4 Student29,On-Topic,On-Topic,True,1,2,2,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q4 Student30,On-Topic,On-Topic,True,1,2,2,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student2,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student4,On-Topic,On-Topic,True,2,2,2,1,2,2,3,4,4.5,4.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student5,On-Topic,On-Topic,True,2,2,2,2,2,1,3,3,4.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q8 Student6,On-Topic,On-Topic,True,1,2,1,2,2,1,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student7,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student8,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student9,On-Topic,On-Topic,True,2,2,1,2,2,2,4,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student10,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student11,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q8 Student12,Off-Topic,On-Topic,False,0,1,0,1,0,1,0,2,0.0,2.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q8 Student13,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q8 Student14,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student15,On-Topic,On-Topic,True,1,2,1,2,1,1,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student16,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student17,On-Topic,On-Topic,True,0,1,0,1,1,1,0,2,0.5,2.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q8 Student18,On-Topic,On-Topic,True,1,2,1,2,1,1,1,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student19,On-Topic,On-Topic,True,1,1,0,1,0,2,1,4,1.0,4.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student20,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student21,On-Topic,On-Topic,True,1,2,1,2,1,2,2,4,2.5,5.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student22,On-Topic,On-Topic,True,0,1,0,1,0,0,1,2,0.5,2.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 2
+}"
+Q8 Student23,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student24,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student25,On-Topic,On-Topic,True,1,1,0,1,0,0,1,1,1.0,1.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q8 Student26,On-Topic,On-Topic,True,1,1,1,1,0,1,1,2,1.5,2.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q8 Student27,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student28,On-Topic,On-Topic,True,1,1,1,1,1,1,1,2,2.0,2.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q8 Student29,On-Topic,On-Topic,True,1,2,0,2,1,1,2,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q8 Student30,On-Topic,On-Topic,True,2,2,1,1,2,2,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student2,On-Topic,On-Topic,True,1,2,1,1,1,1,1,2,2.0,3.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q18 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student4,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student5,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student6,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student7,Off-Topic,On-Topic,False,0,1,0,1,0,0,0,1,0.0,1.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q18 Student8,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student9,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q18 Student10,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student11,On-Topic,On-Topic,True,2,2,2,2,1,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student12,On-Topic,On-Topic,True,2,1,2,1,1,0,1,1,3.0,1.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q18 Student13,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student14,Off-Topic,On-Topic,False,0,1,0,1,0,0,0,1,0.0,1.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q18 Student15,On-Topic,On-Topic,True,1,2,2,2,1,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student16,On-Topic,On-Topic,True,2,2,1,2,1,1,3,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q18 Student17,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student18,On-Topic,On-Topic,True,2,2,1,2,1,1,2,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student19,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student20,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q18 Student21,On-Topic,On-Topic,True,2,2,1,2,1,1,3,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q18 Student22,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student23,Off-Topic,On-Topic,False,0,1,0,1,0,0,0,1,0.0,1.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q18 Student24,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student25,On-Topic,On-Topic,True,2,2,2,2,2,2,4,3,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q18 Student26,On-Topic,On-Topic,True,2,2,1,2,1,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student27,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q18 Student28,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q18 Student29,On-Topic,On-Topic,True,1,1,1,2,1,2,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q18 Student30,On-Topic,On-Topic,True,2,2,1,2,1,1,3,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q19 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student2,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student3,On-Topic,On-Topic,True,1,2,1,1,1,2,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q19 Student4,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student5,On-Topic,On-Topic,True,2,1,2,2,1,1,3,3,4.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q19 Student6,On-Topic,On-Topic,True,2,1,2,2,2,1,3,3,4.5,3.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q19 Student7,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student8,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student9,On-Topic,On-Topic,True,1,2,2,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student10,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student11,On-Topic,On-Topic,True,1,2,2,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student12,On-Topic,On-Topic,True,1,1,0,1,0,0,1,2,1.0,2.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 2
+}"
+Q19 Student13,On-Topic,On-Topic,True,1,1,0,2,0,1,1,2,1.0,3.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q19 Student14,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q19 Student15,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student16,On-Topic,On-Topic,True,2,1,1,2,1,1,2,3,3.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q19 Student17,On-Topic,On-Topic,True,1,1,1,1,1,1,1,2,2.0,2.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q19 Student18,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student19,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student20,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q19 Student21,Off-Topic,On-Topic,False,0,1,0,1,0,0,0,1,0.0,1.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q19 Student22,On-Topic,On-Topic,True,2,2,1,2,1,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student23,On-Topic,On-Topic,True,2,1,2,2,1,1,2,3,3.5,3.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q19 Student24,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student25,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q19 Student26,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q19 Student27,On-Topic,On-Topic,True,2,1,1,1,1,1,3,2,3.5,2.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q19 Student28,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q19 Student29,On-Topic,On-Topic,True,1,1,0,1,0,1,1,2,1.0,2.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q19 Student30,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student2,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student3,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student4,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student5,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student6,On-Topic,On-Topic,True,2,2,1,2,2,2,4,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student7,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student8,Off-Topic,On-Topic,False,0,1,0,1,0,1,0,2,0.0,2.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q21 Student9,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student10,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student11,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student12,On-Topic,On-Topic,True,2,2,1,1,2,2,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student13,Off-Topic,On-Topic,False,0,1,0,1,0,0,0,1,0.0,1.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q21 Student14,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student15,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student16,Off-Topic,On-Topic,False,0,1,0,1,0,1,0,2,0.0,2.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q21 Student17,On-Topic,On-Topic,True,1,2,0,2,0,2,1,4,1.0,5.0,4.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student18,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student19,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student20,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student21,On-Topic,On-Topic,True,2,2,1,1,1,2,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q21 Student22,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student23,Off-Topic,On-Topic,False,0,1,0,1,0,1,0,3,0.0,3.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q21 Student24,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student25,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student26,On-Topic,On-Topic,True,1,1,0,1,0,1,1,2,1.0,2.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q21 Student27,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student28,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student29,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q21 Student30,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student1,On-Topic,On-Topic,True,1,2,1,2,2,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q22 Student2,On-Topic,On-Topic,True,1,2,1,2,1,1,3,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q22 Student3,On-Topic,On-Topic,True,2,2,1,2,2,1,3,3,4.0,4.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student4,On-Topic,On-Topic,True,2,2,1,1,1,1,2,3,3.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student5,On-Topic,On-Topic,True,1,2,2,2,1,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q22 Student6,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student7,On-Topic,On-Topic,True,2,2,1,2,2,1,3,3,4.0,4.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student8,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q22 Student9,On-Topic,On-Topic,True,1,1,0,1,0,0,1,1,1.0,1.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q22 Student10,On-Topic,On-Topic,True,2,2,1,2,2,1,3,3,4.0,4.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student11,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q22 Student12,On-Topic,Off-Topic,False,2,0,1,0,0,0,3,0,3.0,0.0,3.0,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student13,On-Topic,On-Topic,True,2,2,1,2,1,1,3,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student14,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q22 Student15,On-Topic,On-Topic,True,1,2,0,1,0,1,1,2,1.0,3.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q22 Student16,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student17,On-Topic,On-Topic,True,2,1,1,1,1,0,3,1,3.5,1.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q22 Student18,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q22 Student19,On-Topic,On-Topic,True,2,2,1,1,1,1,2,3,3.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student20,On-Topic,On-Topic,True,2,2,1,1,2,1,3,3,4.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student21,On-Topic,On-Topic,True,1,2,1,1,0,1,1,3,1.5,3.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student22,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student23,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student24,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student25,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student26,On-Topic,On-Topic,True,2,2,1,2,2,1,3,3,4.0,4.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q22 Student27,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student28,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student29,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q22 Student30,On-Topic,On-Topic,True,2,2,2,2,2,2,1,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student2,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student4,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student5,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student6,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student7,On-Topic,On-Topic,True,2,2,1,1,1,2,3,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q25 Student8,On-Topic,On-Topic,True,2,2,1,2,1,1,2,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student9,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q25 Student10,On-Topic,On-Topic,True,2,2,2,2,2,2,3,3,4.5,4.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q25 Student11,On-Topic,On-Topic,True,2,2,1,2,2,1,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student12,On-Topic,On-Topic,True,1,2,1,2,1,1,1,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student13,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student14,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q25 Student15,On-Topic,On-Topic,True,1,1,1,2,1,1,1,3,2.0,3.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q25 Student16,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student17,On-Topic,On-Topic,True,2,2,1,2,1,1,2,3,3.0,4.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q25 Student18,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q25 Student19,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student20,On-Topic,On-Topic,True,1,1,1,2,1,1,1,3,2.0,3.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q25 Student21,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student22,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q25 Student23,On-Topic,On-Topic,True,2,1,1,2,1,1,2,3,3.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q25 Student24,On-Topic,On-Topic,True,1,2,2,2,2,2,3,3,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q25 Student25,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q25 Student26,On-Topic,Off-Topic,False,1,0,0,0,0,0,2,0,1.5,0.0,1.5,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q25 Student27,On-Topic,On-Topic,True,1,2,1,2,2,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student28,On-Topic,On-Topic,True,2,2,1,2,1,1,2,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q25 Student29,On-Topic,On-Topic,True,2,1,1,2,1,1,2,2,3.0,3.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q25 Student30,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student2,On-Topic,On-Topic,True,1,1,0,1,0,0,1,2,1.0,2.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 2
+}"
+Q31 Student3,On-Topic,On-Topic,True,1,2,0,2,0,1,1,4,1.0,4.5,3.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student4,On-Topic,On-Topic,True,1,2,1,1,0,1,1,4,1.5,4.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student5,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student6,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student7,On-Topic,On-Topic,True,2,2,2,2,2,1,3,4,4.5,4.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student8,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student9,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student10,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student11,On-Topic,On-Topic,True,1,2,1,2,0,1,2,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student12,On-Topic,On-Topic,True,1,2,2,2,2,2,2,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student13,On-Topic,On-Topic,True,1,2,0,2,0,1,1,4,1.0,4.5,3.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student14,On-Topic,On-Topic,True,1,2,0,1,0,1,1,4,1.0,4.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student15,On-Topic,On-Topic,True,2,2,1,1,2,2,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student16,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student17,Off-Topic,On-Topic,False,0,2,0,2,0,1,0,3,0.0,4.0,4.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q31 Student18,On-Topic,On-Topic,True,1,1,0,1,0,1,1,2,1.0,2.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q31 Student19,On-Topic,On-Topic,True,2,2,1,2,1,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student20,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student21,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student22,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student23,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student24,On-Topic,On-Topic,True,1,1,1,1,0,1,1,3,1.5,3.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q31 Student25,On-Topic,On-Topic,True,1,2,1,1,1,1,1,4,2.0,4.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student26,On-Topic,On-Topic,True,1,2,1,1,0,1,2,4,2.0,4.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student27,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student28,On-Topic,On-Topic,True,2,1,1,2,1,2,2,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q31 Student29,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q31 Student30,On-Topic,On-Topic,True,2,2,1,1,2,1,3,3,4.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q45 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student2,On-Topic,On-Topic,True,2,2,1,1,1,2,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student4,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student5,On-Topic,On-Topic,True,2,2,1,1,1,2,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student6,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student7,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student8,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student9,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student10,On-Topic,On-Topic,True,1,1,1,1,2,1,3,3,3.5,3.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q45 Student11,On-Topic,On-Topic,True,2,2,1,1,2,2,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student12,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student13,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student14,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student15,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student16,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student17,On-Topic,On-Topic,True,1,2,1,1,1,1,2,3,2.5,3.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q45 Student18,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student19,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student20,On-Topic,On-Topic,True,1,1,0,1,0,1,1,3,1.0,3.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q45 Student21,On-Topic,On-Topic,True,1,2,2,1,2,2,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student22,On-Topic,On-Topic,True,1,1,0,1,0,1,1,2,1.0,2.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q45 Student23,On-Topic,On-Topic,True,1,1,1,2,1,2,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student24,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student25,On-Topic,On-Topic,True,1,2,2,1,2,2,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student26,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student27,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student28,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q45 Student29,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q45 Student30,On-Topic,On-Topic,True,2,2,1,1,1,2,2,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student2,On-Topic,On-Topic,True,1,2,1,2,1,1,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student3,On-Topic,On-Topic,True,1,2,1,2,1,2,3,3,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student4,On-Topic,On-Topic,True,2,2,1,2,1,2,3,3,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student5,On-Topic,On-Topic,True,1,2,1,2,1,1,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student6,On-Topic,On-Topic,True,1,2,1,2,1,1,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student7,On-Topic,On-Topic,True,2,2,1,1,1,1,3,2,3.5,3.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q55 Student8,On-Topic,On-Topic,True,2,2,2,2,2,2,4,3,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student9,On-Topic,On-Topic,True,2,2,2,2,2,1,4,3,5.0,4.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student10,On-Topic,On-Topic,True,2,2,2,2,2,2,4,3,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student11,On-Topic,On-Topic,True,1,2,1,1,1,1,2,3,2.5,3.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student12,On-Topic,On-Topic,True,2,2,1,2,1,1,3,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student13,On-Topic,On-Topic,True,2,2,2,2,1,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student14,On-Topic,On-Topic,True,1,2,1,2,1,1,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student15,On-Topic,On-Topic,True,2,2,2,2,1,1,3,3,4.0,4.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student16,On-Topic,On-Topic,True,2,2,2,2,2,2,4,3,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student17,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student18,On-Topic,On-Topic,True,2,2,2,2,1,1,2,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student19,On-Topic,On-Topic,True,1,2,1,1,1,1,1,2,2.0,3.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q55 Student20,On-Topic,Off-Topic,False,0,0,1,0,0,0,0,0,0.5,0.0,0.5,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q55 Student21,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q55 Student22,On-Topic,On-Topic,True,1,2,1,2,1,2,3,3,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student23,On-Topic,On-Topic,True,1,2,1,2,1,1,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student24,On-Topic,On-Topic,True,1,1,1,1,1,1,2,2,2.5,2.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q55 Student25,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student26,On-Topic,On-Topic,True,1,2,1,2,1,2,2,4,2.5,5.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q55 Student27,On-Topic,On-Topic,True,1,2,1,1,1,1,2,3,2.5,3.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student28,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q55 Student29,On-Topic,On-Topic,True,1,2,1,2,1,1,3,3,3.0,4.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q55 Student30,On-Topic,On-Topic,True,1,1,1,1,1,0,1,1,2.0,1.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q57 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student2,On-Topic,On-Topic,True,1,2,1,2,1,2,2,4,2.5,5.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student3,On-Topic,On-Topic,True,1,2,1,2,1,2,2,4,2.5,5.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student4,On-Topic,On-Topic,True,1,2,1,2,1,2,4,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student5,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student6,On-Topic,On-Topic,True,2,2,1,1,1,2,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student7,On-Topic,On-Topic,True,2,2,2,2,1,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student8,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q57 Student9,On-Topic,On-Topic,True,0,2,1,2,1,2,2,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student10,On-Topic,On-Topic,True,0,2,1,2,1,2,2,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student11,On-Topic,On-Topic,True,1,2,1,1,1,2,1,3,2.0,4.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q57 Student12,On-Topic,On-Topic,True,1,2,1,1,1,2,1,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student13,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student14,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student15,On-Topic,On-Topic,True,1,2,0,1,1,2,2,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student16,On-Topic,On-Topic,True,1,1,1,1,1,2,2,3,2.5,3.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q57 Student17,On-Topic,On-Topic,True,1,2,1,2,1,2,2,4,2.5,5.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student18,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q57 Student19,On-Topic,On-Topic,True,1,1,0,1,1,1,1,2,1.5,2.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q57 Student20,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student21,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student22,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q57 Student23,On-Topic,On-Topic,True,1,2,1,1,1,2,3,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student24,On-Topic,Off-Topic,False,1,0,0,0,1,0,1,0,1.5,0.0,1.5,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q57 Student25,On-Topic,On-Topic,True,0,1,1,1,1,1,1,2,1.5,2.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q57 Student26,On-Topic,Off-Topic,False,0,0,0,0,1,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q57 Student27,On-Topic,On-Topic,True,1,2,1,2,2,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student28,On-Topic,On-Topic,True,1,1,1,2,1,2,3,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q57 Student29,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q57 Student30,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q68 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student2,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student4,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student5,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q68 Student6,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student7,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student8,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student9,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student10,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student11,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student12,On-Topic,On-Topic,True,2,2,1,2,1,1,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student13,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student14,On-Topic,On-Topic,True,2,2,2,1,2,2,4,4,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student15,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q68 Student16,On-Topic,On-Topic,True,1,2,1,2,1,1,1,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student17,On-Topic,On-Topic,True,1,2,0,2,0,1,1,2,1.0,3.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q68 Student18,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student19,On-Topic,On-Topic,True,1,1,1,2,1,2,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q68 Student20,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student21,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q68 Student22,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student23,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student24,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q68 Student25,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student26,On-Topic,On-Topic,True,0,2,0,2,1,2,1,4,1.0,5.0,4.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student27,On-Topic,On-Topic,True,1,2,1,2,1,1,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q68 Student28,Off-Topic,On-Topic,False,0,1,0,1,0,1,0,3,0.0,3.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q68 Student29,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q68 Student30,On-Topic,On-Topic,True,1,1,0,1,0,1,1,2,1.0,2.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q69 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student2,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student4,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student5,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student6,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student7,On-Topic,On-Topic,True,1,2,1,2,0,1,1,3,1.5,4.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q69 Student8,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student9,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student10,On-Topic,On-Topic,True,1,2,1,2,2,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student11,On-Topic,On-Topic,True,1,2,2,2,1,1,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student12,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student13,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q69 Student14,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student15,On-Topic,On-Topic,True,1,1,0,1,0,2,1,3,1.0,3.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q69 Student16,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student17,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student18,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student19,On-Topic,On-Topic,True,1,2,0,2,0,2,1,4,1.0,5.0,4.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student20,On-Topic,On-Topic,True,1,1,0,1,0,1,1,2,1.0,2.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q69 Student21,On-Topic,On-Topic,True,1,2,1,2,1,1,1,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student22,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q69 Student23,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student24,On-Topic,On-Topic,True,1,2,2,1,2,1,3,3,4.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q69 Student25,On-Topic,On-Topic,True,1,1,0,1,0,1,1,2,1.0,2.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q69 Student26,On-Topic,On-Topic,True,1,2,0,2,0,1,1,3,1.0,4.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q69 Student27,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student28,On-Topic,On-Topic,True,1,1,0,1,0,0,1,1,1.0,1.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 1
+}"
+Q69 Student29,On-Topic,On-Topic,True,1,1,2,2,2,2,3,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q69 Student30,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student2,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student3,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student4,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student5,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student6,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student7,On-Topic,On-Topic,True,1,2,1,1,1,2,1,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student8,On-Topic,On-Topic,True,1,2,1,1,1,2,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student9,On-Topic,On-Topic,True,1,2,1,1,1,2,3,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student10,On-Topic,On-Topic,True,2,2,2,1,2,2,4,4,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student11,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student12,Off-Topic,On-Topic,False,0,2,0,0,0,1,0,2,0.0,2.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q75 Student13,Off-Topic,On-Topic,False,0,1,0,1,0,1,0,3,0.0,3.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q75 Student14,On-Topic,On-Topic,True,1,2,1,1,1,2,1,4,2.0,4.5,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student15,On-Topic,On-Topic,True,1,2,1,1,1,2,3,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student16,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student17,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student18,On-Topic,On-Topic,True,2,2,2,1,2,2,4,4,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student19,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student20,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student21,Off-Topic,On-Topic,False,0,1,0,1,0,1,0,3,0.0,3.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q75 Student22,On-Topic,On-Topic,True,1,2,1,1,1,2,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student23,On-Topic,On-Topic,True,1,1,1,1,1,1,3,3,3.0,3.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q75 Student24,On-Topic,Off-Topic,False,1,0,1,0,1,0,2,0,2.5,0.0,2.5,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student25,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student26,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student27,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student28,On-Topic,On-Topic,True,1,2,1,2,1,2,1,4,2.0,5.0,3.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q75 Student29,On-Topic,Off-Topic,False,1,0,1,0,1,0,1,0,2.0,0.0,2.0,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q75 Student30,On-Topic,On-Topic,True,1,2,1,1,1,1,1,2,2.0,3.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q80 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student2,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student4,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q80 Student5,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student6,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student7,On-Topic,On-Topic,True,2,2,2,2,2,1,3,2,4.5,3.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q80 Student8,On-Topic,On-Topic,True,1,2,1,2,1,1,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q80 Student9,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student10,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student11,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student12,On-Topic,On-Topic,True,1,1,1,1,1,1,2,3,2.5,3.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q80 Student13,On-Topic,On-Topic,True,1,1,1,1,1,1,1,2,2.0,2.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q80 Student14,On-Topic,On-Topic,True,1,2,1,2,1,1,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q80 Student15,On-Topic,Off-Topic,False,1,0,1,0,1,0,1,0,2.0,0.0,2.0,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q80 Student16,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student17,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q80 Student18,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student19,On-Topic,On-Topic,True,2,1,2,2,2,1,3,2,4.5,3.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q80 Student20,On-Topic,On-Topic,True,1,1,1,1,1,1,3,2,3.0,2.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q80 Student21,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q80 Student22,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student23,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student24,On-Topic,Off-Topic,False,1,0,1,0,1,0,2,0,2.5,0.0,2.5,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q80 Student25,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q80 Student26,On-Topic,On-Topic,True,2,2,2,2,2,2,3,3,4.5,4.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 3
+}"
+Q80 Student27,On-Topic,On-Topic,True,1,1,1,1,1,1,1,2,2.0,2.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q80 Student28,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q80 Student29,On-Topic,On-Topic,True,1,1,1,1,1,1,2,2,2.5,2.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q80 Student30,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q81 Student1,On-Topic,On-Topic,True,2,2,1,2,1,2,4,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student2,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student3,On-Topic,On-Topic,True,2,2,1,2,1,2,3,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student4,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student5,On-Topic,On-Topic,True,1,2,1,2,1,2,3,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student6,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student7,On-Topic,On-Topic,True,1,2,2,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student8,On-Topic,On-Topic,True,1,2,2,2,1,1,3,3,3.5,4.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q81 Student9,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student10,On-Topic,On-Topic,True,0,2,0,2,1,1,2,2,1.5,3.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student11,On-Topic,On-Topic,True,1,2,2,2,1,1,2,2,3.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student12,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student13,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q81 Student14,On-Topic,On-Topic,True,2,2,2,2,1,1,3,2,4.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student15,On-Topic,On-Topic,True,2,2,1,2,2,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student16,On-Topic,On-Topic,True,1,2,2,2,2,2,2,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student17,On-Topic,On-Topic,True,0,2,1,2,1,1,2,2,2.0,3.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student18,On-Topic,On-Topic,True,2,2,2,2,1,1,3,3,4.0,4.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q81 Student19,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q81 Student20,On-Topic,Off-Topic,False,0,0,0,0,0,0,1,0,0.5,0.0,0.5,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q81 Student21,On-Topic,On-Topic,True,0,1,1,2,0,1,0,2,0.5,3.0,2.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student22,On-Topic,On-Topic,True,2,2,2,2,1,1,2,2,3.5,3.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student23,On-Topic,On-Topic,True,2,2,2,2,2,2,3,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student24,On-Topic,On-Topic,True,2,2,1,2,1,1,2,2,3.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student25,On-Topic,On-Topic,True,1,2,2,2,1,2,2,4,3.0,5.0,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q81 Student26,On-Topic,Off-Topic,False,1,0,0,0,0,0,0,0,0.5,0.0,0.5,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q81 Student27,On-Topic,On-Topic,True,1,2,2,2,1,1,2,2,3.0,3.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q81 Student28,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q81 Student29,On-Topic,Off-Topic,False,1,0,1,0,1,0,1,0,2.0,0.0,2.0,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q81 Student30,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q84 Student1,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student2,On-Topic,On-Topic,True,2,1,2,2,2,2,4,4,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student3,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student4,On-Topic,On-Topic,True,1,2,2,2,2,2,4,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student5,On-Topic,On-Topic,True,1,1,2,2,2,2,4,4,4.5,4.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student6,On-Topic,On-Topic,True,1,2,1,2,1,2,4,4,3.5,5.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student7,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student8,On-Topic,On-Topic,True,1,2,1,2,2,2,4,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student9,On-Topic,On-Topic,True,1,1,1,2,2,2,4,4,4.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student10,On-Topic,On-Topic,True,2,2,1,2,2,2,4,4,4.5,5.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student11,On-Topic,On-Topic,True,1,1,1,1,1,1,3,3,3.0,3.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 1,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q84 Student12,On-Topic,On-Topic,True,2,2,2,2,1,2,3,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student13,On-Topic,On-Topic,True,1,1,1,2,1,2,3,4,3.0,4.5,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student14,On-Topic,On-Topic,True,1,1,1,2,2,2,3,4,3.5,4.5,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student15,On-Topic,On-Topic,True,1,2,1,2,1,1,3,3,3.0,4.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q84 Student16,On-Topic,Off-Topic,False,1,0,0,0,0,0,0,0,0.5,0.0,0.5,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q84 Student17,On-Topic,On-Topic,True,1,2,1,2,1,1,2,4,2.5,4.5,2.0,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student18,On-Topic,On-Topic,True,2,2,2,2,2,2,4,4,5.0,5.0,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student19,Off-Topic,Off-Topic,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q84 Student20,On-Topic,On-Topic,True,1,2,1,2,2,2,4,4,4.0,5.0,1.0,True,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student21,On-Topic,On-Topic,True,1,1,1,2,1,1,2,2,2.5,3.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q84 Student22,On-Topic,On-Topic,True,1,2,1,2,1,1,2,3,2.5,4.0,1.5,False,False,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 2,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 3
+}"
+Q84 Student23,On-Topic,On-Topic,True,1,1,2,2,2,2,4,4,4.5,4.5,0.0,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student24,On-Topic,On-Topic,True,1,1,1,2,1,1,2,2,2.5,3.0,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 1,
+  ""Accuracy_Score"": 2
+}"
+Q84 Student25,On-Topic,Off-Topic,False,0,0,0,0,1,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""Insufficient answer - may have keywords but without any meaning to the required answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q84 Student26,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q84 Student27,On-Topic,On-Topic,True,2,1,2,2,2,2,4,4,5.0,4.5,0.5,True,True,"{
+  ""off_topic"": ""On-Topic"",
+  ""Off_Topic_Reason"": ""Valid answer that addresses the question"",
+  ""Clarity_Score"": 1,
+  ""Terminology_Score"": 2,
+  ""Coverage_Score"": 2,
+  ""Accuracy_Score"": 4
+}"
+Q84 Student28,On-Topic,Off-Topic,False,1,0,1,0,1,0,2,0,2.5,0.0,2.5,False,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q84 Student29,No Answer,No Answer,True,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True,"{
+  ""off_topic"": ""No Answer"",
+  ""Off_Topic_Reason"": ""No answer provided"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"
+Q84 Student30,On-Topic,Off-Topic,False,1,0,0,0,0,0,1,0,1.0,0.0,1.0,True,False,"{
+  ""off_topic"": ""Off-Topic"",
+  ""Off_Topic_Reason"": ""This is an answer to another question, and doesn't relate to model answer"",
+  ""Clarity_Score"": 0,
+  ""Terminology_Score"": 0,
+  ""Coverage_Score"": 0,
+  ""Accuracy_Score"": 0
+}"

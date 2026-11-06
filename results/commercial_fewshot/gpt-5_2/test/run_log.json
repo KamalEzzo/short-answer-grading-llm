@@ -1,0 +1,32 @@
+{
+  "model_requested": "gpt-5.2",
+  "split": "test",
+  "run_date": "2026-10-23T19:27:03",
+  "response_models": {
+    "gpt-5.2-2025-12-11": 510
+  },
+  "fingerprints": {},
+  "status_counts": {
+    "ok": 510
+  },
+  "clipped_scores": 0,
+  "stop_reasons": {
+    "stop": 510
+  },
+  "in_tokens": 809685,
+  "out_tokens": 35560,
+  "cost": "full usage saved per reply (usage column); charge taken from the provider console for this key and date",
+  "settings": {
+    "temperature": 0,
+    "max_tokens": 400,
+    "seed (OpenAI only)": 42,
+    "workers": 4
+  },
+  "versions": {
+    "python": "3.13.10",
+    "anthropic": "0.81.0",
+    "openai": "2.21.0",
+    "pandas": "2.3.3"
+  },
+  "minutes": 3.4
+}

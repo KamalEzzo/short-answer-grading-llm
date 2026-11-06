@@ -1,0 +1,12 @@
+{
+  "acc_1": 77.05882352941177,
+  "acc_05": 59.01960784313726,
+  "mae": 0.7490196078431373,
+  "qwk": 0.8125568471592988,
+  "off_topic_acc": 91.76470588235294,
+  "false_positive": 23,
+  "false_negative": 19,
+  "model": "claude-opus-4-6",
+  "total_time_min": 22.9,
+  "samples": 510
+}

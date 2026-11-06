@@ -1,0 +1,20 @@
+{
+  "chosen_lr": 3e-05,
+  "search": [
+    {
+      "lr": 1e-05,
+      "best_epoch": 4,
+      "best_val_qwk": 0.7966345454419497
+    },
+    {
+      "lr": 2e-05,
+      "best_epoch": 3,
+      "best_val_qwk": 0.8198465626619141
+    },
+    {
+      "lr": 3e-05,
+      "best_epoch": 7,
+      "best_val_qwk": 0.828278540124112
+    }
+  ]
+}

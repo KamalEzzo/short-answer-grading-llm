@@ -1,0 +1,12 @@
+{
+  "acc_1": 77.45098039215686,
+  "acc_05": 54.509803921568626,
+  "mae": 0.8127450980392157,
+  "qwk": 0.7866839798228487,
+  "off_topic_acc": 84.11764705882354,
+  "false_positive": 75,
+  "false_negative": 6,
+  "model": "claude-sonnet-4-20250514",
+  "total_time_min": 1.4,
+  "samples": 510
+}

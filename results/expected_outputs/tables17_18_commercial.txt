@@ -1,0 +1,54 @@
+=== Table metrics (±1 %, QWK 0-10, MAE 0-5, bias model-human 0-5) ===
+Gemma FT         ±1  78.43  QWK 0.8207  MAE 0.7127  bias +0.0853  n=510
+Gemma ZS         ±1  72.35  QWK 0.7610  MAE 0.8745  bias -0.2098  n=510
+GPT-4o           ±1  71.57  QWK 0.7657  MAE 0.8451  bias -0.4039  n=510
+GPT-5.2          ±1  68.04  QWK 0.7708  MAE 0.8971  bias +0.6716  n=510
+Claude Sonnet 4  ±1  77.45  QWK 0.7867  MAE 0.8127  bias -0.2167  n=510
+Claude Opus 4.6  ±1  77.06  QWK 0.8126  MAE 0.7490  bias -0.1490  n=510
+BERT s42         ±1  73.14  QWK 0.7844  MAE 0.8333  bias +0.2098  n=510
+BERT s43         ±1  76.27  QWK 0.7950  MAE 0.7804  bias +0.1647  n=510
+BERT s44         ±1  75.10  QWK 0.7961  MAE 0.7931  bias +0.3637  n=510
+FS GPT-4o        ±1  74.31  QWK 0.8069  MAE 0.7814  bias +0.2931  n=510
+FS GPT-5.2       ±1  67.84  QWK 0.7613  MAE 0.9000  bias +0.7216  n=510
+FS Opus 4.6      ±1  80.78  QWK 0.8351  MAE 0.7020  bias +0.1471  n=510
+BERT mean [74.8366  0.7919  0.8023] min [73.1373  0.7844  0.7804] max [76.2745  0.7961  0.8333]
+
+=== Family: FT minus each (alpha = 0.05/9 = 0.00556) ===
+Gemma ZS         QWK    Δ=+0.0597 CI [+0.0185, +0.1153] p = 0.0004 (raw 0.0004, mcse 0.0003) SIG
+Gemma ZS         MAE    Δ=-0.1618 CI [-0.2814, -0.0637] p < 0.0001 (raw 0.0000, mcse 0.0000) SIG
+Gemma ZS         Acc±1  Δ=+6.0784 CI [+1.1765, +10.5882] p = 0.0138 (raw 0.0138, mcse 0.0017) ns
+GPT-4o           QWK    Δ=+0.0550 CI [+0.0089, +0.1086] p = 0.0178 (raw 0.0178, mcse 0.0019) ns
+GPT-4o           MAE    Δ=-0.1324 CI [-0.2559, -0.0324] p = 0.0080 (raw 0.0080, mcse 0.0013) ns
+GPT-4o           Acc±1  Δ=+6.8627 CI [+1.1765, +13.5294] p = 0.0166 (raw 0.0166, mcse 0.0018) ns
+GPT-5.2          QWK    Δ=+0.0499 CI [+0.0071, +0.0905] p = 0.0224 (raw 0.0224, mcse 0.0021) ns
+GPT-5.2          MAE    Δ=-0.1843 CI [-0.2931, -0.0824] p = 0.0002 (raw 0.0002, mcse 0.0002) SIG
+GPT-5.2          Acc±1  Δ=+10.3922 CI [+5.8824, +15.0980] p < 0.0001 (raw 0.0000, mcse 0.0000) SIG
+Claude Sonnet 4  QWK    Δ=+0.0340 CI [-0.0110, +0.0805] p = 0.1386 (raw 0.1386, mcse 0.0051) ns
+Claude Sonnet 4  MAE    Δ=-0.1000 CI [-0.2108, +0.0059] p = 0.0662 (raw 0.0662, mcse 0.0036) ns
+Claude Sonnet 4  Acc±1  Δ=+0.9804 CI [-3.7255, +6.0784] p = 0.7494 (raw 0.7494, mcse 0.0097) ns
+Claude Opus 4.6  QWK    Δ=+0.0082 CI [-0.0265, +0.0420] p = 0.6556 (raw 0.6556, mcse 0.0094) ns
+Claude Opus 4.6  MAE    Δ=-0.0363 CI [-0.1284, +0.0598] p = 0.4562 (raw 0.4562, mcse 0.0084) ns
+Claude Opus 4.6  Acc±1  Δ=+1.3725 CI [-4.7059, +7.0588] p = 0.6766 (raw 0.6766, mcse 0.0095) ns
+BERT s42         QWK    Δ=+0.0363 CI [-0.0065, +0.0783] p = 0.0938 (raw 0.0938, mcse 0.0042) ns
+BERT s42         MAE    Δ=-0.1206 CI [-0.2324, -0.0137] p = 0.0250 (raw 0.0250, mcse 0.0022) ns
+BERT s42         Acc±1  Δ=+5.2941 CI [+0.0000, +10.9804] p = 0.0508 (raw 0.0508, mcse 0.0031) ns
+FS GPT-4o        QWK    Δ=+0.0138 CI [-0.0258, +0.0509] p = 0.5038 (raw 0.5038, mcse 0.0087) ns
+FS GPT-4o        MAE    Δ=-0.0686 CI [-0.1755, +0.0343] p = 0.2098 (raw 0.2098, mcse 0.0061) ns
+FS GPT-4o        Acc±1  Δ=+4.1176 CI [-0.7843, +9.2157] p = 0.1172 (raw 0.1172, mcse 0.0047) ns
+FS GPT-5.2       QWK    Δ=+0.0594 CI [+0.0163, +0.1008] p = 0.0066 (raw 0.0066, mcse 0.0011) ns
+FS GPT-5.2       MAE    Δ=-0.1873 CI [-0.3029, -0.0824] p < 0.0001 (raw 0.0000, mcse 0.0000) SIG
+FS GPT-5.2       Acc±1  Δ=+10.5882 CI [+6.4706, +15.4902] p < 0.0001 (raw 0.0000, mcse 0.0000) SIG
+FS Opus 4.6      QWK    Δ=-0.0144 CI [-0.0452, +0.0178] p = 0.3460 (raw 0.3460, mcse 0.0076) ns
+FS Opus 4.6      MAE    Δ=+0.0108 CI [-0.0735, +0.0902] p = 0.7924 (raw 0.7924, mcse 0.0098) ns
+FS Opus 4.6      Acc±1  Δ=-2.3529 CI [-6.2745, +1.9608] p = 0.2864 (raw 0.2864, mcse 0.0070) ns
+
+=== Descriptive: few-shot minus zero-shot (same model) ===
+FS GPT-4o    - GPT-4o           QWK    Δ=+0.0412 CI [-0.0069, +0.0912]
+FS GPT-4o    - GPT-4o           MAE    Δ=-0.0637 CI [-0.1941, +0.0667]
+FS GPT-4o    - GPT-4o           Acc±1  Δ=+2.7451 CI [-3.3333, +9.2157]
+FS GPT-5.2   - GPT-5.2          QWK    Δ=-0.0095 CI [-0.0266, +0.0070]
+FS GPT-5.2   - GPT-5.2          MAE    Δ=+0.0029 CI [-0.0392, +0.0441]
+FS GPT-5.2   - GPT-5.2          Acc±1  Δ=-0.1961 CI [-2.5490, +2.1569]
+FS Opus 4.6  - Claude Opus 4.6  QWK    Δ=+0.0226 CI [-0.0019, +0.0457]
+FS Opus 4.6  - Claude Opus 4.6  MAE    Δ=-0.0471 CI [-0.1108, +0.0176]
+FS Opus 4.6  - Claude Opus 4.6  Acc±1  Δ=+3.7255 CI [+0.0000, +7.4510]

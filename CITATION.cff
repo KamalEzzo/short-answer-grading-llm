@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this code or these outputs, please cite this repository and the dataset."
+title: "Fine-Tuned Open-Weight LLM for Rubric-Based Short-Answer Grading"
+abstract: >-
+  Code, saved model outputs and analysis scripts for rubric-based grading of short answers
+  in business education with Gemma 2 9B-IT fine-tuned with LoRA. Answers are classified as
+  On-Topic, Off-Topic or No Answer and scored on four criteria (Clarity, Terminology,
+  Coverage, Accuracy); results are compared with examiner grades, commercial models
+  (zero-shot and few-shot) and a DeBERTa-v3 encoder baseline.
+type: software
+version: "2.0"
+date-released: "2026-11-06"
+authors:
+  - given-names: "Kamal Muhammad Kamal"
+    family-names: "Abdul-Fattah"
+    email: k.ezzo@nu.edu.eg
+    affiliation: "Nile University, School of Information Technology and Computer Science"
+    orcid: "https://orcid.org/0009-0000-7643-1964"
+  - given-names: "Ghada"
+    family-names: "Khoriba"
+    affiliation: "Nile University, School of Information Technology and Computer Science"
+  - given-names: "Walid"
+    family-names: "Al-Atabany"
+    affiliation: "Nile University, School of Information Technology and Computer Science"
+repository-code: "https://github.com/KamalEzzo/automated-essay-grading-system"
+license: MIT
+keywords:
+  - automated short-answer grading
+  - large language models
+  - open-weight models
+  - fine-tuning
+  - LoRA
+  - business education
+references:
+  - type: data
+    title: "Business Education Essay Grading Dataset"
+    authors:
+      - given-names: "Kamal Muhammad Kamal"
+        family-names: "Abdul-Fattah"
+    doi: "10.5281/zenodo.18856922"
+    year: 2026

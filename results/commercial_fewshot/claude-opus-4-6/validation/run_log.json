@@ -1,0 +1,32 @@
+{
+  "model_requested": "claude-opus-4-6",
+  "split": "validation",
+  "run_date": "2026-10-23T18:53:35",
+  "response_models": {
+    "claude-opus-4-6": 510
+  },
+  "fingerprints": {},
+  "status_counts": {
+    "ok": 510
+  },
+  "clipped_scores": 0,
+  "stop_reasons": {
+    "end_turn": 510
+  },
+  "in_tokens": 928206,
+  "out_tokens": 40884,
+  "cost": "full usage saved per reply (usage column); charge taken from the provider console for this key and date",
+  "settings": {
+    "temperature": 0,
+    "max_tokens": 400,
+    "seed (OpenAI only)": 42,
+    "workers": 4
+  },
+  "versions": {
+    "python": "3.13.10",
+    "anthropic": "0.81.0",
+    "openai": "2.21.0",
+    "pandas": "2.3.3"
+  },
+  "minutes": 6.1
+}

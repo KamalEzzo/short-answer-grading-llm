@@ -1,0 +1,25 @@
+single-step test N 510 human flag 90
+ZS multi-step: pm1=72.35 (369) macro=71.55 QWK=0.7610 r=0.7687 MAE=0.8745 bias=-0.2098
+   Clarity      QWK=0.496 MAE=0.520 exact=53.5 bias=-0.324
+   Terminology  QWK=0.663 MAE=0.376 exact=63.5 bias=-0.133
+   Coverage     QWK=0.694 MAE=0.375 exact=64.9 bias=-0.178
+   Accuracy     QWK=0.705 MAE=0.824 exact=44.1 bias=+0.216
+Fine-tuned: pm1=78.43 (400) macro=78.95 QWK=0.8207 r=0.8220 MAE=0.7127 bias=+0.0853
+   Clarity      QWK=0.702 MAE=0.312 exact=69.2 bias=+0.041
+   Terminology  QWK=0.761 MAE=0.271 exact=73.1 bias=+0.059
+   Coverage     QWK=0.734 MAE=0.310 exact=69.4 bias=+0.094
+   Accuracy     QWK=0.790 MAE=0.576 exact=52.4 bias=-0.024
+ZS multi-step: TP=89 FP=112 FN=1 TN=308 P=44.3 R=98.9 F1=61.2 incons=63/201=31.3
+   LLM categories: {'On-Topic': 309, 'Off-Topic': 163, 'No Answer': 35, 'Insufficient answer - may have keywords but without any meaning to the required answer': 3}
+Fine-tuned: TP=67 FP=12 FN=23 TN=408 P=84.8 R=74.4 F1=79.3 incons=0/79=0.0
+   LLM categories: {'On-Topic': 431, 'Off-Topic': 44, 'No Answer': 35}
+ZS single-step: TP=69 FP=30 FN=21 TN=390 P=69.7 R=76.7 F1=73.0 incons=22/99=22.2
+
+3x3 fine-tuned (rows human, cols model):
+LLM_OffTopic    No Answer  Off-Topic  On-Topic
+Human_OffTopic                                
+No Answer              35          0         0
+Off-Topic               0         32        23
+On-Topic                0         12       408
+
+human categories (test): {'On-Topic': 420, 'Off-Topic': 55, 'No Answer': 35}

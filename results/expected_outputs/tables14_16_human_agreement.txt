@@ -1,0 +1,12 @@
+Table 14: pairwise agreement among the four sets of human grades
+  AE2 vs AE3         QWK 0.903  MAE 0.525  ±1 88.63%  bias +0.134
+  Original vs AE2    QWK 0.852  MAE 0.660  ±1 80.59%  bias -0.052
+  Original vs AE3    QWK 0.819  MAE 0.745  ±1 76.08%  bias +0.082
+  Original vs AE1    QWK 0.788  MAE 0.834  ±1 75.88%  bias +0.234
+  AE1 vs AE3         QWK 0.782  MAE 0.805  ±1 76.08%  bias -0.152
+  AE1 vs AE2         QWK 0.780  MAE 0.802  ±1 75.10%  bias -0.286
+  Model vs Original  QWK 0.821  MAE 0.713  ±1 78.43%
+
+Table 16: multi-rater reliability (final grade 0-5)
+  AE1-AE3 (primary)                ICC(2,1) 0.822 [0.758 0.871]  alpha interval 0.822 [0.757 0.871]  alpha ordinal 0.792
+  Original + AE1-AE3 (secondary)   ICC(2,1) 0.821 [0.767 0.862]  alpha interval 0.821 [0.767 0.862]  alpha ordinal 0.786

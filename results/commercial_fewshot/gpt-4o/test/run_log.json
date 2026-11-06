@@ -1,0 +1,39 @@
+{
+  "model_requested": "gpt-4o",
+  "split": "test",
+  "run_date": "2026-10-23T19:23:38",
+  "response_models": {
+    "gpt-4o-2024-08-06": 510
+  },
+  "fingerprints": {
+    "fp_773fccf863": 360,
+    "fp_bbf31a9d1e": 54,
+    "fp_4c910a9acf": 51,
+    "fp_f89046aead": 41,
+    "fp_55e838642c": 3,
+    "fp_27b52db0fd": 1
+  },
+  "status_counts": {
+    "ok": 510
+  },
+  "clipped_scores": 0,
+  "stop_reasons": {
+    "stop": 510
+  },
+  "in_tokens": 810195,
+  "out_tokens": 36074,
+  "cost": "full usage saved per reply (usage column); charge taken from the provider console for this key and date",
+  "settings": {
+    "temperature": 0,
+    "max_tokens": 400,
+    "seed (OpenAI only)": 42,
+    "workers": 4
+  },
+  "versions": {
+    "python": "3.13.10",
+    "anthropic": "0.81.0",
+    "openai": "2.21.0",
+    "pandas": "2.3.3"
+  },
+  "minutes": 2.4
+}

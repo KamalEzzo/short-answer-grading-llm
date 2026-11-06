@@ -1,0 +1,6 @@
+DeepSeek-7B-Chat     ties=even changed= 804 pm1=47.1 macro=49.4 QWK=0.435 r=0.550 MAE=1.428 bias=-0.963 P=49.2 R=72.2 incons=0.7 crit={'Clarity': 0.381, 'Terminology': 0.45, 'Coverage': 0.465, 'Accuracy': 0.243}
+DeepSeek-7B-Chat     ties=up   changed= 808 pm1=47.2 macro=49.5 QWK=0.436 r=0.550 MAE=1.427 bias=-0.961 P=49.2 R=72.2 incons=0.7 crit={'Clarity': 0.381, 'Terminology': 0.45, 'Coverage': 0.465, 'Accuracy': 0.245}
+Llama3-8B-Instruct   ties=even changed= 168 pm1=73.8 macro=71.9 QWK=0.762 r=0.764 MAE=0.853 bias=+0.131 P=82.9 R=27.0 incons=0.0 crit={'Clarity': 0.655, 'Terminology': 0.639, 'Coverage': 0.682, 'Accuracy': 0.719}
+Llama3-8B-Instruct   ties=up   changed= 180 pm1=73.8 macro=71.8 QWK=0.761 r=0.763 MAE=0.854 bias=+0.135 P=82.9 R=27.0 incons=0.0 crit={'Clarity': 0.655, 'Terminology': 0.639, 'Coverage': 0.68, 'Accuracy': 0.719}
+Gemma2-9B-IT         ties=even changed=   0 pm1=78.4 macro=76.5 QWK=0.819 r=0.820 MAE=0.726 bias=-0.039 P=71.7 R=84.9 incons=21.0 crit={'Clarity': 0.632, 'Terminology': 0.586, 'Coverage': 0.748, 'Accuracy': 0.772}
+Gemma2-9B-IT         ties=up   changed=   0 pm1=78.4 macro=76.5 QWK=0.819 r=0.820 MAE=0.726 bias=-0.039 P=71.7 R=84.9 incons=21.0 crit={'Clarity': 0.632, 'Terminology': 0.586, 'Coverage': 0.748, 'Accuracy': 0.772}

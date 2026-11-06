@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+~$*
+*.tmp
+progress.json
+progress.jsonl
+
+# Restricted data and anything containing student text
+data/*.xlsx
+data/*.json
+data/prompt_example_*.txt
+
+# Local script output
+outputs/

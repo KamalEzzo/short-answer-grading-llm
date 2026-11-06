@@ -1,0 +1,511 @@
+student_id,Human_OffTopic,LLM_OffTopic,OffTopic_Match,Human_Reason,LLM_Reason,Human_Clarity,LLM_Clarity,Clarity_Diff,Human_Terminology,LLM_Terminology,Terminology_Diff,Human_Coverage,LLM_Coverage,Coverage_Diff,Human_Accuracy,LLM_Accuracy,Accuracy_Diff,Human_Total,LLM_Total,Human_Final,LLM_Final,Diff,Within_1.0,Within_0.5
+Q16 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q16 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q16 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q16 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q16 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q16 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q16 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q16 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q16 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,1,1,0,2,2,0,7,5,3.5,2.5,1.0,True,False
+Q16 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,2,1,1,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q16 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,1,2,1,3,3,0,7,9,3.5,4.5,1.0,True,False
+Q16 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q16 Student13,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q16 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,1,4,3,7,10,3.5,5.0,1.5,False,False
+Q16 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q16 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,1,1,0,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q16 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q16 Student18,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q16 Student19,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q16 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q16 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q16 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,0,1,1,1,2,1,3,5,1.5,2.5,1.0,True,False
+Q16 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,3,2,1,9,5,4.5,2.5,2.0,False,False
+Q16 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q16 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q16 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,2,2,0,7,5,3.5,2.5,1.0,True,False
+Q16 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,1,0,1,2,1,2,3,1,5,8,2.5,4.0,1.5,False,False
+Q16 Student28,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,0,1,1,1,1,0,1,1,0,2,2,0,4,5,2.0,2.5,0.5,True,True
+Q16 Student29,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q16 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,1,1,0,5,4,2.5,2.0,0.5,True,True
+Q26 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q26 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,2,1,1,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q26 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q26 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q26 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q26 Student11,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q26 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,3,2,1,9,5,4.5,2.5,2.0,False,False
+Q26 Student14,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer",Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q26 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q26 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q26 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,3,1,2,9,4,4.5,2.0,2.5,False,False
+Q26 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,3,1,2,7,4,3.5,2.0,1.5,False,False
+Q26 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q26 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q26 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q26 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q26 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q26 Student26,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,0,0,0,0,0,0,1,0,1,2,0,1.0,0.0,1.0,True,False
+Q26 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,3,1,2,8,4,4.0,2.0,2.0,False,False
+Q26 Student28,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q26 Student29,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q26 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,2,1,1,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q32 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q32 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,1,1,2,2,0,3,3,0,8,8,4.0,4.0,0.0,True,True
+Q32 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q32 Student4,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,2,2,0,5,0.0,2.5,2.5,False,False
+Q32 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q32 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q32 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q32 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q32 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q32 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,0,1,1,1,2,1,3,5,1.5,2.5,1.0,True,False
+Q32 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,1,1,5,4,2.5,2.0,0.5,True,True
+Q32 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q32 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q32 Student14,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q32 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q32 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q32 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q32 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q32 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q32 Student20,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer","This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q32 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q32 Student22,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q32 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,0,1,1,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q32 Student24,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q32 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,0,0,1,1,0,2,2,1.0,1.0,0.0,True,True
+Q32 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q32 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q32 Student28,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q32 Student29,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,0,1,1,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q32 Student30,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q34 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q34 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q34 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q34 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q34 Student5,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q34 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q34 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q34 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q34 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,2,1,1,2,1,1,7,4,3.5,2.0,1.5,False,False
+Q34 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q34 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q34 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,2,1,1,3,1,2,7,4,3.5,2.0,1.5,False,False
+Q34 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,1,2,1,3,3,0,7,8,3.5,4.0,0.5,True,True
+Q34 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q34 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q34 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q34 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q34 Student18,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q34 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q34 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,1,0,1,2,1,1,3,2,4,8,2.0,4.0,2.0,False,False
+Q34 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q34 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,0,0,1,0,1,2,1,1.0,0.5,0.5,True,True
+Q34 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,0,1,1,2,1,1,4,4,2.0,2.0,0.0,True,True
+Q34 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,1,1,6,4,3.0,2.0,1.0,True,False
+Q34 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q34 Student26,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer","This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q34 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q34 Student28,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q34 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q34 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q37 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q37 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q37 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q37 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q37 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q37 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q37 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q37 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q37 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q37 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q37 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q37 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,2,2,0,7,5,3.5,2.5,1.0,True,False
+Q37 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,2,1,1,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q37 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,4,3,1,10,8,5.0,4.0,1.0,True,False
+Q37 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q37 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,2,1,1,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q37 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,1,1,0,3,1,2,7,4,3.5,2.0,1.5,False,False
+Q37 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q37 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,1,0,2,1,1,2,3,1,6,7,3.0,3.5,0.5,True,True
+Q37 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,2,3,1,7,9,3.5,4.5,1.0,True,False
+Q37 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,3,0,8,9,4.0,4.5,0.5,True,True
+Q37 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q37 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q37 Student24,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,"This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q37 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,1,3,2,4,9,2.0,4.5,2.5,False,False
+Q37 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,4,3,1,10,8,5.0,4.0,1.0,True,False
+Q37 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q37 Student28,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q37 Student29,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,"This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q37 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,2,1,1,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q39 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q39 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q39 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q39 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q39 Student5,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q39 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q39 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q39 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q39 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,2,2,0,3,4,1,7,10,3.5,5.0,1.5,False,False
+Q39 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,2,2,0,3,4,1,7,10,3.5,5.0,1.5,False,False
+Q39 Student11,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q39 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q39 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q39 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,1,1,2,3,1,7,8,3.5,4.0,0.5,True,True
+Q39 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q39 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q39 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,3,2,1,9,5,4.5,2.5,2.0,False,False
+Q39 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q39 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q39 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q39 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,2,1,1,3,1,2,8,4,4.0,2.0,2.0,False,False
+Q39 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q39 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,1,2,6,4,3.0,2.0,1.0,True,False
+Q39 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q39 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,1,1,5,4,2.5,2.0,0.5,True,True
+Q39 Student26,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q39 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,2,1,1,3,2,1,8,6,4.0,3.0,1.0,True,False
+Q39 Student28,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q39 Student29,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,1,0,2,1,1,3,2,1,7,6,3.5,3.0,0.5,True,True
+Q39 Student30,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q42 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q42 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q42 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q42 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q42 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,2,1,1,2,2,0,7,5,3.5,2.5,1.0,True,False
+Q42 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q42 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,3,3,0,9,6,4.5,3.0,1.5,False,False
+Q42 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q42 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,4,3,1,10,8,5.0,4.0,1.0,True,False
+Q42 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q42 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,2,2,0,3,3,0,8,8,4.0,4.0,0.0,True,True
+Q42 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q42 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,2,1,1,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q42 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,1,1,0,1,1,0,3,4,1.5,2.0,0.5,True,True
+Q42 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,0,1,1,1,2,1,3,5,1.5,2.5,1.0,True,False
+Q42 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q42 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,0,1,1,1,0,2,2,0,5,4,2.5,2.0,0.5,True,True
+Q42 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q42 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,2,2,0,7,5,3.5,2.5,1.0,True,False
+Q42 Student20,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q42 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,1,2,1,3,3,0,7,8,3.5,4.0,0.5,True,True
+Q42 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q42 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q42 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,2,1,1,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q42 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q42 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,2,1,1,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q42 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,2,1,4,5,2.0,2.5,0.5,True,True
+Q42 Student28,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q42 Student29,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,0,0,1,1,0,2,2,1.0,1.0,0.0,True,True
+Q42 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q48 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q48 Student2,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,2,2,0,5,0.0,2.5,2.5,False,False
+Q48 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q48 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q48 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,2,2,0,3,3,0,7,9,3.5,4.5,1.0,True,False
+Q48 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q48 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q48 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q48 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,1,1,2,2,0,3,3,0,8,8,4.0,4.0,0.0,True,True
+Q48 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,0,2,2,0,2,2,1,4,3,2,10,1.0,5.0,4.0,False,False
+Q48 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q48 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,1,1,2,2,0,3,3,0,8,8,4.0,4.0,0.0,True,True
+Q48 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q48 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q48 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q48 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,0,1,1,0,1,1,1,3,2,2,7,1.0,3.5,2.5,False,False
+Q48 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,2,1,4,5,2.0,2.5,0.5,True,True
+Q48 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,2,2,0,3,4,1,7,10,3.5,5.0,1.5,False,False
+Q48 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,0,1,1,1,0,1,2,1,4,4,2.0,2.0,0.0,True,True
+Q48 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,0,0,1,1,0,2,2,1.0,1.0,0.0,True,True
+Q48 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,1,0,1,3,2,4,8,2.0,4.0,2.0,False,False
+Q48 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,2,2,0,3,4,1,7,10,3.5,5.0,1.5,False,False
+Q48 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q48 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,1,4,3,4,10,2.0,5.0,3.0,False,False
+Q48 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q48 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,2,1,4,5,2.0,2.5,0.5,True,True
+Q48 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q48 Student28,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,1,4,3,4,10,2.0,5.0,3.0,False,False
+Q48 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q48 Student30,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q50 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,1,0,2,2,0,3,3,0,7,8,3.5,4.0,0.5,True,True
+Q50 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,1,1,2,2,0,3,3,0,8,8,4.0,4.0,0.0,True,True
+Q50 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q50 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q50 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q50 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q50 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student16,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q50 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q50 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q50 Student20,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student21,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer","This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student22,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,"This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student23,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student24,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student25,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student26,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student27,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student28,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student29,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q50 Student30,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,"This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q51 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,4,4,0,9,10,4.5,5.0,0.5,True,True
+Q51 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q51 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q51 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q51 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q51 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q51 Student7,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer",Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q51 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q51 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,2,2,0,3,3,0,8,8,4.0,4.0,0.0,True,True
+Q51 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q51 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q51 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q51 Student13,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q51 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q51 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q51 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q51 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,0,1,1,1,2,1,3,5,1.5,2.5,1.0,True,False
+Q51 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q51 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,2,1,4,5,2.0,2.5,0.5,True,True
+Q51 Student20,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q51 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,2,2,0,3,4,1,7,10,3.5,5.0,1.5,False,False
+Q51 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,2,2,0,6,5,3.0,2.5,0.5,True,True
+Q51 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q51 Student24,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer",Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q51 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,2,2,0,3,4,1,7,10,3.5,5.0,1.5,False,False
+Q51 Student26,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q51 Student27,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,2,2,0,5,0.0,2.5,2.5,False,False
+Q51 Student28,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,4,3,1,10,8,5.0,4.0,1.0,True,False
+Q51 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q51 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,2,1,4,5,2.0,2.5,0.5,True,True
+Q54 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,1,1,0,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q54 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q54 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q54 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q54 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q54 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,1,2,1,3,4,1,7,10,3.5,5.0,1.5,False,False
+Q54 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,0,1,1,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q54 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,2,1,1,2,1,1,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q54 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,1,1,0,1,1,0,3,4,1.5,2.0,0.5,True,True
+Q54 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,0,1,1,1,1,0,1,1,0,1,2,1,3,5,1.5,2.5,1.0,True,False
+Q54 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q54 Student12,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q54 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q54 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q54 Student15,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q54 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,1,1,0,1,1,0,3,4,1.5,2.0,0.5,True,True
+Q54 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,0,1,1,1,1,0,1,1,0,0,2,2,2,5,1.0,2.5,1.5,False,False
+Q54 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q54 Student19,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q54 Student20,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,2,0,2,5,0,2.5,0.0,2.5,False,False
+Q54 Student21,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,0,0,0,1,0,1,1,0,1,3,0,1.5,0.0,1.5,False,False
+Q54 Student22,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,2,0,2,5,0,2.5,0.0,2.5,False,False
+Q54 Student23,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,1,0,1,4,0,2.0,0.0,2.0,False,False
+Q54 Student24,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,1,0,1,4,0,2.0,0.0,2.0,False,False
+Q54 Student25,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,2,0,2,2,0,2,2,0,2,3,0,3,9,0,4.5,0.0,4.5,False,False
+Q54 Student26,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,2,0,2,1,0,1,2,0,2,3,0,3,8,0,4.0,0.0,4.0,False,False
+Q54 Student27,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q54 Student28,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,2,0,2,5,0,2.5,0.0,2.5,False,False
+Q54 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q54 Student30,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student1,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,1,0,1,4,0,2.0,0.0,2.0,False,False
+Q60 Student2,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,"This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student3,On-Topic,Off-Topic,False,Valid answer that addresses the question,"This is an answer to another question, and doesn't relate to model answer",1,0,1,1,0,1,1,0,1,1,0,1,4,0,2.0,0.0,2.0,False,False
+Q60 Student4,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,1,0,1,4,0,2.0,0.0,2.0,False,False
+Q60 Student5,On-Topic,Off-Topic,False,Valid answer that addresses the question,"This is an answer to another question, and doesn't relate to model answer",1,0,1,1,0,1,1,0,1,1,0,1,4,0,2.0,0.0,2.0,False,False
+Q60 Student6,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0.5,0.0,0.5,True,True
+Q60 Student7,On-Topic,Off-Topic,False,Valid answer that addresses the question,"This is an answer to another question, and doesn't relate to model answer",0,0,0,1,0,1,0,0,0,0,0,0,1,0,0.5,0.0,0.5,True,True
+Q60 Student8,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student9,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student10,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,2,2,0,1,2,1,2,3,1,6,9,3.0,4.5,1.5,False,False
+Q60 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,1,2,1,1,3,2,5,8,2.5,4.0,1.5,False,False
+Q60 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q60 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,1,2,1,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q60 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,0,0,0,1,1,0,1,1,0,4,3,2.0,1.5,0.5,True,True
+Q60 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,0,1,1,1,2,1,1,3,2,3,8,1.5,4.0,2.5,False,False
+Q60 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,2,4,2,5,10,2.5,5.0,2.5,False,False
+Q60 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,0,2,2,0,1,1,1,1,0,1,2,1,2,6,1.0,3.0,2.0,False,False
+Q60 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,1,2,1,2,4,2,6,10,3.0,5.0,2.0,False,False
+Q60 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q60 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,0,1,1,0,1,1,1,1,0,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q60 Student22,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer","This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,3,0,9,9,4.5,4.5,0.0,True,True
+Q60 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,2,1,2,2,0,3,4,1,8,10,4.0,5.0,1.0,True,False
+Q60 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,2,4,2,5,10,2.5,5.0,2.5,False,False
+Q60 Student26,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer","This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student27,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student28,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q60 Student30,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q63 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q63 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q63 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q63 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,1,1,0,4,3,1,9,7,4.5,3.5,1.0,True,False
+Q63 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,4,3,1,10,8,5.0,4.0,1.0,True,False
+Q63 Student6,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,0,0,0,1,1,0,1,1,0,3,0.0,1.5,1.5,False,False
+Q63 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q63 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,1,1,0,4,3,1,9,7,4.5,3.5,1.0,True,False
+Q63 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,1,2,1,4,3,1,8,8,4.0,4.0,0.0,True,True
+Q63 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,2,4,2,5,10,2.5,5.0,2.5,False,False
+Q63 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,1,2,1,4,3,1,9,8,4.5,4.0,0.5,True,True
+Q63 Student12,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q63 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q63 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q63 Student15,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,0,0,0,1,1,0,1,1,0,3,0.0,1.5,1.5,False,False
+Q63 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,1,1,0,1,1,0,3,3,1.5,1.5,0.0,True,True
+Q63 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,1,1,0,3,2,1,8,5,4.0,2.5,1.5,False,False
+Q63 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q63 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q63 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,1,1,0,3,2,1,7,6,3.5,3.0,0.5,True,True
+Q63 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,1,2,1,3,3,0,7,8,3.5,4.0,0.5,True,True
+Q63 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q63 Student23,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,0,0,0,0,0,0,1,0,1,2,0,1.0,0.0,1.0,True,False
+Q63 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q63 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q63 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,1,1,0,2,2,0,3,3,0,8,8,4.0,4.0,0.0,True,True
+Q63 Student27,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q63 Student28,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q63 Student29,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,1,4,3,4,10,2.0,5.0,3.0,False,False
+Q63 Student30,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q66 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q66 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q66 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q66 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,4,3,1,10,8,5.0,4.0,1.0,True,False
+Q66 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,1,1,0,1,1,0,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q66 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q66 Student7,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer","This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q66 Student8,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,0,0,0,0,0,0,1,0,1,2,0,1.0,0.0,1.0,True,False
+Q66 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q66 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,0,0,1,1,0,2,2,1.0,1.0,0.0,True,True
+Q66 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q66 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,1,1,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q66 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q66 Student14,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q66 Student15,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q66 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,2,3,1,5,9,2.5,4.5,2.0,False,False
+Q66 Student17,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,0,0,0,0,0,0,1,0,1,2,0,1.0,0.0,1.0,True,False
+Q66 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q66 Student19,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0.0,0.5,0.5,True,True
+Q66 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q66 Student21,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0.0,0.5,0.5,True,True
+Q66 Student22,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q66 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q66 Student24,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q66 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q66 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,0,0,0,0,1,1,1,1,0,2,3,1.0,1.5,0.5,True,True
+Q66 Student27,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,2,2,0,5,0.0,2.5,2.5,False,False
+Q66 Student28,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,2,2,0,5,0.0,2.5,2.5,False,False
+Q66 Student29,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q66 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,0,1,1,1,1,0,0,1,1,1,2,1,2,5,1.0,2.5,1.5,False,False
+Q71 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q71 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q71 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q71 Student4,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,0,1,1,1,1,0,3,4,1.5,2.0,0.5,True,True
+Q71 Student5,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q71 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q71 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q71 Student8,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0.5,0.0,0.5,True,True
+Q71 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q71 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q71 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q71 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q71 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q71 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q71 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q71 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,1,1,5,4,2.5,2.0,0.5,True,True
+Q71 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q71 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q71 Student19,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,1,0,1,1,0,1,1,0,1,2,0,2,5,0,2.5,0.0,2.5,False,False
+Q71 Student20,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q71 Student21,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q71 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,3,2,1,9,5,4.5,2.5,2.0,False,False
+Q71 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,1,2,6,4,3.0,2.0,1.0,True,False
+Q71 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q71 Student25,On-Topic,Off-Topic,False,Valid answer that addresses the question,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,1,0,1,0,0,0,1,0,1,2,0,1.0,0.0,1.0,True,False
+Q71 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q71 Student27,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q71 Student28,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q71 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q71 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,0,1,1,1,1,0,0,1,1,1,1,0,2,4,1.0,2.0,1.0,True,False
+Q72 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q72 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q72 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,1,0,1,1,0,3,3,0,6,7,3.0,3.5,0.5,True,True
+Q72 Student4,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,0,0,0,1,1,0,1,1,0,3,0.0,1.5,1.5,False,False
+Q72 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q72 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q72 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q72 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,1,1,2,2,0,3,3,0,9,8,4.5,4.0,0.5,True,True
+Q72 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q72 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q72 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q72 Student12,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,0,1,1,1,0,2,1,1,5,3,2.5,1.5,1.0,True,False
+Q72 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q72 Student14,Off-Topic,On-Topic,False,"This is an answer to another question, and doesn't relate to model answer",Valid answer that addresses the question,0,1,1,0,0,0,0,1,1,0,1,1,0,3,0.0,1.5,1.5,False,False
+Q72 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q72 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,2,1,4,5,2.0,2.5,0.5,True,True
+Q72 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q72 Student18,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q72 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,0,1,1,3,2,1,7,5,3.5,2.5,1.0,True,False
+Q72 Student20,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q72 Student21,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q72 Student22,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,2,2,0,5,0.0,2.5,2.5,False,False
+Q72 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q72 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,3,1,10,6,5.0,3.0,2.0,False,False
+Q72 Student25,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,1,1,0,1,1,0,1,1,0,4,0.0,2.0,2.0,False,False
+Q72 Student26,Off-Topic,On-Topic,False,Insufficient answer - may have keywords but without any meaning to the required answer,Valid answer that addresses the question,0,1,1,0,0,0,0,0,0,0,1,1,0,2,0.0,1.0,1.0,True,False
+Q72 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,2,1,4,5,2.0,2.5,0.5,True,True
+Q72 Student28,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,3,4,1,9,10,4.5,5.0,0.5,True,True
+Q72 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q72 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student1,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,2,1,1,2,1,1,2,1,3,4,1,6,10,3.0,5.0,2.0,False,False
+Q78 Student2,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q78 Student3,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q78 Student4,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,Insufficient answer - may have keywords but without any meaning to the required answer,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q78 Student5,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student6,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q78 Student7,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student8,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q78 Student9,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,3,2,1,9,5,4.5,2.5,2.0,False,False
+Q78 Student10,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student11,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student12,Off-Topic,Off-Topic,True,"This is an answer to another question, and doesn't relate to model answer","This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q78 Student13,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q78 Student14,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q78 Student15,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student16,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,1,1,5,4,2.5,2.0,0.5,True,True
+Q78 Student17,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student18,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False
+Q78 Student19,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,1,1,0,4,4,2.0,2.0,0.0,True,True
+Q78 Student20,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,1,2,6,4,3.0,2.0,1.0,True,False
+Q78 Student21,Off-Topic,Off-Topic,True,Insufficient answer - may have keywords but without any meaning to the required answer,"This is an answer to another question, and doesn't relate to model answer",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q78 Student22,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student23,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,1,1,5,4,2.5,2.0,0.5,True,True
+Q78 Student24,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,3,2,1,6,5,3.0,2.5,0.5,True,True
+Q78 Student25,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,4,0,10,10,5.0,5.0,0.0,True,True
+Q78 Student26,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,2,0,2,2,0,2,2,0,4,3,1,10,9,5.0,4.5,0.5,True,True
+Q78 Student27,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,1,1,0,1,1,0,1,1,0,2,2,0,5,5,2.5,2.5,0.0,True,True
+Q78 Student28,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q78 Student29,No Answer,No Answer,True,No answer provided,No answer provided,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,True,True
+Q78 Student30,On-Topic,On-Topic,True,Valid answer that addresses the question,Valid answer that addresses the question,2,1,1,2,1,1,2,1,1,4,2,2,10,5,5.0,2.5,2.5,False,False

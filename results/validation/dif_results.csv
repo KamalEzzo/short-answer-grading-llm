@@ -1,0 +1,9 @@
+Criterion,Raw_SMD,SMD_Interpretation,Partial_r,MH_Class,DIF_Status,Grouping
+Clarity,-0.3,Small,-0.096,A,Negligible,Block Split
+Terminology,-0.186,Negligible,0.047,A,Negligible,Block Split
+Coverage,-0.25,Small,-0.037,A,Negligible,Block Split
+Accuracy,-0.193,Negligible,0.084,A,Negligible,Block Split
+Clarity,-0.536,Medium,0.058,A,Negligible,Difficulty Tercile
+Terminology,-0.601,Medium,0.002,A,Negligible,Difficulty Tercile
+Coverage,-0.627,Medium,-0.021,A,Negligible,Difficulty Tercile
+Accuracy,-0.654,Medium,-0.04,A,Negligible,Difficulty Tercile

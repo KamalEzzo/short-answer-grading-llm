@@ -1,0 +1,213 @@
+{
+  "efa": {
+    "kmo": 0.8572892668905882,
+    "bartlett_chi2": 11149.802300663754,
+    "eigenvalues_corr": [
+      3.51019214536647,
+      0.24538265009537716,
+      0.1412851060554242,
+      0.10314009848273056
+    ],
+    "variance_explained_pct": [
+      87.7548036341617,
+      6.134566252384426,
+      3.5321276513856033,
+      2.578502462068263
+    ],
+    "cumulative_variance_pct": [
+      87.7548036341617,
+      93.88936988654613,
+      97.42149753793174,
+      100.0
+    ],
+    "parallel_analysis_95th": [
+      1.0708043351934584,
+      1.0295663737929341,
+      1.0002526570377508,
+      0.9766095742087922
+    ],
+    "n_factors_retained": 1,
+    "factor_loadings": {
+      "Clarity": -0.8725081244550058,
+      "Terminology": -0.9057890023595923,
+      "Coverage": -0.9240557947353053,
+      "Accuracy": -0.95862704008886
+    },
+    "communalities": {
+      "Clarity": 0.7612704272399919,
+      "Terminology": 0.8204537167955854,
+      "Coverage": 0.8538791117838966,
+      "Accuracy": 0.9189658019895288
+    },
+    "efa_variance_explained_pct": 83.86422644522507
+  },
+  "omega": {
+    "cronbachs_alpha": 0.9268319011944213,
+    "mcdonalds_omega_total": 0.9540628938203479,
+    "factor_loadings": [
+      -0.8725081244550058,
+      -0.9057890023595923,
+      -0.9240557947353053,
+      -0.95862704008886
+    ],
+    "uniquenesses": [
+      0.23870567131649226,
+      0.1795227957220769,
+      0.1460923156031352,
+      0.08100843953867252
+    ]
+  },
+  "bootstrap": {
+    "n_iterations": 10000,
+    "alpha": {
+      "estimate": 0.9268319011944213,
+      "ci_lower": 0.9238374800546677,
+      "ci_upper": 0.9295998444928928
+    },
+    "omega": {
+      "estimate": 0.9540628938203479,
+      "ci_lower": 0.9508885946938777,
+      "ci_upper": 0.957118136845252
+    },
+    "item_total": {
+      "Clarity": {
+        "estimate": 0.8894878395460573,
+        "ci_lower": 0.8801593501994645,
+        "ci_upper": 0.8984410518670132
+      },
+      "Terminology": {
+        "estimate": 0.9188252200486043,
+        "ci_lower": 0.9125769428234691,
+        "ci_upper": 0.9245802030824126
+      },
+      "Coverage": {
+        "estimate": 0.9262492298037951,
+        "ci_lower": 0.9213375310525846,
+        "ci_upper": 0.9306990317799909
+      },
+      "Accuracy": {
+        "estimate": 0.970903652769848,
+        "ci_lower": 0.9674126456475927,
+        "ci_upper": 0.9740873682997004
+      }
+    }
+  },
+  "dif_difficulty_tercile": [
+    {
+      "Criterion": "Clarity",
+      "Raw_SMD": -0.536,
+      "SMD_Interpretation": "Medium",
+      "Partial_r": 0.058,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    },
+    {
+      "Criterion": "Terminology",
+      "Raw_SMD": -0.601,
+      "SMD_Interpretation": "Medium",
+      "Partial_r": 0.002,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    },
+    {
+      "Criterion": "Coverage",
+      "Raw_SMD": -0.627,
+      "SMD_Interpretation": "Medium",
+      "Partial_r": -0.021,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    },
+    {
+      "Criterion": "Accuracy",
+      "Raw_SMD": -0.654,
+      "SMD_Interpretation": "Medium",
+      "Partial_r": -0.04,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    }
+  ],
+  "dif_block_split": [
+    {
+      "Criterion": "Clarity",
+      "Raw_SMD": -0.3,
+      "SMD_Interpretation": "Small",
+      "Partial_r": -0.096,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    },
+    {
+      "Criterion": "Terminology",
+      "Raw_SMD": -0.186,
+      "SMD_Interpretation": "Negligible",
+      "Partial_r": 0.047,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    },
+    {
+      "Criterion": "Coverage",
+      "Raw_SMD": -0.25,
+      "SMD_Interpretation": "Small",
+      "Partial_r": -0.037,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    },
+    {
+      "Criterion": "Accuracy",
+      "Raw_SMD": -0.193,
+      "SMD_Interpretation": "Negligible",
+      "Partial_r": 0.084,
+      "MH_Class": "A",
+      "DIF_Status": "Negligible"
+    }
+  ],
+  "multilevel_model": [
+    {
+      "Criterion": "Clarity",
+      "Block_Effect": -0.062,
+      "Block_SE": 0.0233,
+      "Block_p": 0.0077,
+      "Ability_Effect": 0.3863,
+      "Ability_SE": 0.0036,
+      "ICC": 0.078,
+      "Var_Question": 0.0082,
+      "Var_Residual": 0.0969,
+      "Intercept": 0.1684
+    },
+    {
+      "Criterion": "Terminology",
+      "Block_Effect": 0.0278,
+      "Block_SE": 0.0152,
+      "Block_p": 0.0671,
+      "Ability_Effect": 0.4112,
+      "Ability_SE": 0.0033,
+      "ICC": 0.022,
+      "Var_Question": 0.0019,
+      "Var_Residual": 0.0876,
+      "Intercept": -0.0793
+    },
+    {
+      "Criterion": "Coverage",
+      "Block_Effect": -0.0208,
+      "Block_SE": 0.0176,
+      "Block_p": 0.2372,
+      "Ability_Effect": 0.4322,
+      "Ability_SE": 0.0032,
+      "ICC": 0.05,
+      "Var_Question": 0.004,
+      "Var_Residual": 0.0766,
+      "Intercept": -0.0668
+    },
+    {
+      "Criterion": "Accuracy",
+      "Block_Effect": 0.055,
+      "Block_SE": 0.0249,
+      "Block_p": 0.0273,
+      "Ability_Effect": 0.7706,
+      "Ability_SE": 0.0036,
+      "ICC": 0.091,
+      "Var_Question": 0.0099,
+      "Var_Residual": 0.099,
+      "Intercept": -0.0231
+    }
+  ]
+}
